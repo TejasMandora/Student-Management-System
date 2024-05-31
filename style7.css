@@ -1,0 +1,96 @@
+
+        body {
+            background-color: #f0f0f0; /* Light gray background color for the body */
+        }
+
+.container {
+	width:100%;
+	height:600px;
+    background-color: #e6e6ff;
+    border-radius: 15px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Add border to the container */
+}
+h1{
+text-align:center;
+margin-bottom:20px;
+color:red;
+}
+form {
+    width: 100%;
+    max-width: 800px;
+	height:350px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 5px solid black; /* Add border to the form */
+    padding: 20px; /* Add padding to the form */
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+	font-size:20px;
+	font-family:Times New Roman;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid gray; /* Remove border from the form fields */
+    border-radius: 8px; /* Add border radius to the form fields */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s ease-in-out;
+	font-size:15px;
+	color:black;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group select:focus,
+.form-group input[type="number"]:focus {
+    border-color: dodgerblue;
+}
+
+.error-message {
+    color: red;
+}
+.btn-container {
+    width: 100%; /* Make the button container full width */
+    text-align: center; /* Center-align the contents */
+	
+
+}
+.btn {
+	font-size:18px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-top: 45px;
+    background-color: pink;
+    color: black;
+   
+}
+
+		
+	
